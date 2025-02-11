@@ -1,51 +1,23 @@
-# Assignment 1 - Conda & GitHub  
+# Assignment 1 - Conda & GitHub
 
-This repository contains files for Assignment 1, which involves setting up a Conda environment, using Python decorators, and managing the repository using Git and GitHub.  
+This repository contains files for Assignment 1.
 
-## Conda Environment Setup  
+## Python Decorators
 
-To create the Conda environment with the required packages, run the following command:
+The Python file demonstrates the use of decorators.
 
-<code> 
-conda create --name cs_assign1 numpy matplotlib
-</code>  
+## Conda Environment Setup
 
-Once the environment is created, export it to a YAML file:
+The following command was used to create a conda environment named `cs_assign1` and install required packages:
 
-<code> 
-conda env export > requirements.yaml
-</code>  
+<code>conda create -n cs_assign1 numpy matplotlib</code>
 
-### Python Decorators  
+Once the environment is set up, export the environment to a YAML file:
 
-This Python file demonstrates the use of decorators to add additional behavior to a function:
+<code>conda env export > requirements.yaml</code>
 
-<code>
-def my_decorator(func):
-    def wrapper():
-        print("Before the function runs.")
-        func()
-        print("After the function runs.")
-    return wrapper
+## My Pet
 
-@my_decorator
-def greet():
-    print("Hello, World!")
+Here’s a picture of dog:
 
-greet()
-</code>  
-
-### Animal Image  
-
-Below is an image of an animal uploaded as part of this exercise:  
-
-<code> 
-![Golden Retriever](dog.jpg)
-</code>  
-
----
-
-### Changes in **branch1**  
-
-- **Added a new Python file** (`new_script.py`).  
-- **Modified the headings in the README file**, keeping the content unchanged.  
+![Cute Dog](golden-retriever-7412806_1280.jpg)
