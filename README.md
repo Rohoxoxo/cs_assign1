@@ -20,4 +20,4 @@ Once the environment is set up, export the environment to a YAML file:
 
 Here’s a picture of dog:
 
-![Cute Dog](golden-retriever-7412806_1280.jpg)
+![Cute Dog](dog.jpg)
